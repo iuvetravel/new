@@ -25,3 +25,30 @@
   width: 100%;
   margin: 0;
 }
+
+.header .wrap .callToActions {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header .wrap .callToActions ul,
+.header .wrap .callToActions li {
+  margin: 0;
+  padding: 0;
+}
+
+.header .wrap .callToActions li {
+  list-style-type: none;
+}
+
+.header .wrap .callToActions li a {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  line-height: 1;
+  text-decoration: none;
+  letter-spacing: 0.5rem;
+}
